@@ -6,9 +6,9 @@
 #define outputNeurons (10)
 #define layers (3)
 #define autoSaveRate (10)
-#define MNIST_trainingCSVPath  "C:\\Users\\simou\\Desktop\\mnist_train_modifiedImgs_smalEdition.csv"
-#define nnFile  "C:\\Users\\simou\\Desktop\\nn_digitRecognition.myNeuralNetwork"
-#define nnFile_autoSaving  "C:\\Users\\simou\\Desktop\\nn_digitRecognition__AUTOSAVE.myNeuralNetwork"
+#define MNIST_trainingCSVPath  "Files\\mnist_train_modifiedImgs.csv"
+#define nnFile  "Files\\nn_digitRecognition.myNeuralNetwork"
+#define nnFile_autoSaving  "Files\\nn_digitRecognition__AUTOSAVE.myNeuralNetwork"
 #define trainingEnabled (false) //Set to true if you want to train
 
 enum TrainingStatus {
